@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/nnn"
     tools:context=".ProfileActivity">
 
 
@@ -14,7 +13,7 @@
         android:layout_height="172dp"
         android:gravity="center"
         android:text="Welcome! Logged in as:"
-        android:textColor="@color/lavender"
+        android:textColor="@color/royal_blue"
         android:textSize="48sp"
         tools:layout_editor_absoluteX="58dp"
         tools:layout_editor_absoluteY="44dp" />
@@ -26,7 +25,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="2dp"
-        android:background="@drawable/lavender_border"
+        android:background="@drawable/royalblue_border"
         android:orientation="vertical"
         android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -53,7 +52,7 @@
                 android:layout_weight="1"
                 android:text="name"
                 android:textAlignment="center"
-                android:textColor="@color/lavender"
+                android:textColor="@color/royal_blue"
                 android:textSize="18sp" />
 
         </LinearLayout>
@@ -79,7 +78,7 @@
                 android:layout_weight="1"
                 android:text="role"
                 android:textAlignment="center"
-                android:textColor="@color/lavender"
+                android:textColor="@color/royal_blue"
                 android:textSize="18sp" />
 
         </LinearLayout>
@@ -104,7 +103,7 @@
                 android:layout_weight="1"
                 android:text="username"
                 android:textAlignment="center"
-                android:textColor="@color/lavender"
+                android:textColor="@color/royal_blue"
                 android:textSize="18sp" />
 
         </LinearLayout>
@@ -124,6 +123,7 @@
         android:layout_height="60dp"
         android:gravity="center"
         android:text="Edit Profile"
+        android:backgroundTint="@color/royal_blue"
         android:textSize="18sp"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
