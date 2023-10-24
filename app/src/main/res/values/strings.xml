@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EastCyclingClub</string>
+    <string name="menu">Select an Option</string>
+
+    <string-array name="Options">
+        <item></item>
+        <item>Cycling Club Owner</item>
+        <item>Participant</item>
+    </string-array>
+
+</resources>
